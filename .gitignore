@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.* 
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS or IDE
+.DS_Store
+Thumbs.db
+*.swp
+
+# Angular cache or build
+.angular/
+tmp/
+.cache/
+.vscode/
+.idea/
+
+# Environnements Angular
+frontend/src/environments/environment.ts
+frontend/src/environments/environment.*.ts
+
+# Docker
+**/keycloak_db_data/

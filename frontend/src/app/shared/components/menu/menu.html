@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav me-auto">
+      @for (action of actions; track action) {
+      <li class="nav-item">
+        <a class="nav-link" routerLink="{{ action.route }}">
+          {{ action.title }}
+        </a>
+      </li>
+      }
+    </ul>
+    <form class="d-flex">
+      <button class="btn btn-danger" type="button" (click)="logout()">
+        Logout
+      </button>
+    </form>
+  </div>
+</nav>
