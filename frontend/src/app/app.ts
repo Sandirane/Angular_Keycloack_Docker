@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Footer } from '@shared/components/footer/footer';
 import { Menu } from '@shared/components/menu/menu';
@@ -9,6 +9,4 @@ import { Menu } from '@shared/components/menu/menu';
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App {
-  protected readonly title = signal('frontend');
-}
+export class App {}
