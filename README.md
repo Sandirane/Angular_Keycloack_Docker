@@ -29,7 +29,7 @@ It features centralized authentication and role-based access control using Keycl
 ## Folder Structure
 
 ```txt
- src/
+src/
 ├── app/
 │   ├── app.component.ts
 │   ├── app.config.ts
@@ -54,6 +54,7 @@ It features centralized authentication and role-based access control using Keycl
 ## 1. Clone the repository
 
 git clone https://github.com/Sandirane/Angular_Keycloack_Docker.git
+
 cd Angular_Keycloack_Docker
 
 ## 2. Create the .env file & configure Keycloak
@@ -78,7 +79,9 @@ docker-compose up --build
 ## 4. Launch the Angular frontend
 
 cd frontend
+
 npm install
+
 ng serve
 
 ## 5. Access the application
