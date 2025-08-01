@@ -52,11 +52,11 @@ src/
 ## Setup Instructions
 
 ## 1. Clone the repository
-
+````bash
 git clone https://github.com/Sandirane/Angular_Keycloack_Docker.git
 
 cd Angular_Keycloack_Docker
-
+````
 ## 2. Create the .env file & configure Keycloak
 
 Create a .env file in the project root with your Keycloak and DB settings.
@@ -73,17 +73,17 @@ After launching Keycloak, configure it (manually or via JSON import):
 This setup allows Angular to authenticate with Keycloak.
 
 ## 3. Launch the Docker containers
-
+````bash
 docker-compose up --build
-
+````
 ## 4. Launch the Angular frontend
-
+````bash
 cd frontend
 
 npm install
 
 ng serve
-
+````
 ## 5. Access the application
 
 - Angular app: http://localhost:4200
